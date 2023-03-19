@@ -19,6 +19,7 @@ class CardScreen extends StatelessWidget {
               height: 10,
             ),
             CustomCardType2(
+              name: 'Paisaje de Venezuela',
               imageUrl:
                   'https://astelus.com/wp-content/viajes/Lago-Moraine-Parque-Nacional-Banff-Alberta-Canada.jpg',
             ),
@@ -33,6 +34,7 @@ class CardScreen extends StatelessWidget {
               height: 10,
             ),
             CustomCardType2(
+              name: 'Colombian Picture',
               imageUrl:
                   'http://miracomohacerlo.com/wp-content/uploads/2016/10/Fotos-de-paisajes.jpg',
             ),

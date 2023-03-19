@@ -18,19 +18,31 @@ class CardScreen extends StatelessWidget {
             SizedBox(
               height: 10,
             ),
-            CustomCardType2(),
+            CustomCardType2(
+              imageUrl:
+                  'https://astelus.com/wp-content/viajes/Lago-Moraine-Parque-Nacional-Banff-Alberta-Canada.jpg',
+            ),
             SizedBox(
               height: 10,
             ),
-            CustomCardType2(),
+            CustomCardType2(
+              imageUrl:
+                  'https://www.nationalgeographic.com.es/medio/2018/02/27/playa-de-isuntza-lekeitio__1280x720.jpg',
+            ),
             SizedBox(
               height: 10,
             ),
-            CustomCardType2(),
+            CustomCardType2(
+              imageUrl:
+                  'http://miracomohacerlo.com/wp-content/uploads/2016/10/Fotos-de-paisajes.jpg',
+            ),
             SizedBox(
               height: 10,
             ),
-            CustomCardType2(),
+            CustomCardType2(
+              imageUrl:
+                  'https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_1280.jpg',
+            ),
             SizedBox(
               height: 100,
             ),

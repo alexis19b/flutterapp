@@ -13,7 +13,28 @@ class CardScreen extends StatelessWidget {
         ),
         body: ListView(
           padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
-          children: const [CustomCardType1(), CustomCardType2()],
+          children: const [
+            CustomCardType1(),
+            SizedBox(
+              height: 10,
+            ),
+            CustomCardType2(),
+            SizedBox(
+              height: 10,
+            ),
+            CustomCardType2(),
+            SizedBox(
+              height: 10,
+            ),
+            CustomCardType2(),
+            SizedBox(
+              height: 10,
+            ),
+            CustomCardType2(),
+            SizedBox(
+              height: 100,
+            ),
+          ],
         ));
   }
 }

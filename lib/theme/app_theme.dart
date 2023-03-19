@@ -9,5 +9,14 @@ class AppTheme {
         elevation: 0,
       ),
       textButtonTheme: TextButtonThemeData(
-          style: TextButton.styleFrom(foregroundColor: primary)));
+          style: TextButton.styleFrom(foregroundColor: primary)
+      ),
+          
+      floatingActionButtonTheme: const FloatingActionButtonThemeData(
+          backgroundColor: primary,
+          elevation: 5,
+      ),
+      
+        
+      )
 }

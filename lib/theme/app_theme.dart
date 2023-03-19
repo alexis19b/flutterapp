@@ -9,14 +9,14 @@ class AppTheme {
         elevation: 0,
       ),
       textButtonTheme: TextButtonThemeData(
-          style: TextButton.styleFrom(foregroundColor: primary)
-      ),
-          
+          style: TextButton.styleFrom(foregroundColor: primary)),
       floatingActionButtonTheme: const FloatingActionButtonThemeData(
-          backgroundColor: primary,
-          elevation: 5,
+        backgroundColor: primary,
+        elevation: 5,
       ),
-      
-        
-      )
+      elevatedButtonTheme: ElevatedButtonThemeData(
+          style: ElevatedButton.styleFrom(
+              backgroundColor: primary,
+              shape: const StadiumBorder(),
+              elevation: 0)));
 }

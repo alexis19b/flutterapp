@@ -12,14 +12,18 @@ class AvatarScreen extends StatelessWidget {
           Container(
             margin: const EdgeInsets.only(right: 10),
             child: CircleAvatar(
-              child: const Text('JL'),
               backgroundColor: Colors.green[800],
+              child: const Text('JL'),
             ),
           )
         ],
       ),
       body: const Center(
-        child: Text('AvatarScreen'),
+        child: CircleAvatar(
+          maxRadius: 110,
+          backgroundImage: NetworkImage(
+              'https://revupsports.com/media/wysiwyg/Athletes/Messi_Avatar.png'),
+        ),
       ),
     );
   }
